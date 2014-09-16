@@ -1,0 +1,241 @@
+        
+
+\documentclass[12pt,twoside,a4paper]{article}
+
+\textheight 19.7 true cm
+
+\usepackage[dvips]{epsfig}
+%\usepackage{version1}
+%\usepackage{csz}
+\usepackage{times}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{enumerate}
+%\usepackage[utf8]{inputenc}
+%prova lara
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%prova lara
+
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+%\usepackage{hyperref}
+\usepackage[cp1250]{inputenc}
+
+
+
+\input{StyleAndData.tex}
+
+
+
+%Added Lara 2009
+\newcommand{\AbstractTitle}[1]{{\bf #1}\\}
+\newcommand{\AbstractAuthors}[1]{{\sl #1}\\}
+\newcommand{\Keyword}[1]{{\bf #1 \par \vspace{12pt}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%Added Lara 2009, from AB 2008
+\newcommand{\Title}[1]{\large{\textbf{#1}}\par\vspace{12pt}}
+\newcommand{\Author}[1]{
+\begin{center}
+\textit{#1}
+\end{center}
+\par}
+
+
+\newcommand{\Afilliation}[1]{\small{#1}\par\vspace{2pt}}
+%\newcommand{\Email}[1]{\texttt{\email{#1}}\par}
+%\newcommand{\Afilliation}[1]{\small{#1}\par} %new line after afiliation
+%\newcommand{\Afilliation}[1]{\small{#1}} %no new line after afiliation
+%changed 2014, style of affiliation
+\ifdefstring{\Style}{AS2011}{\newcommand{\Afilliation}[1]{\small{#1}\par}}{\newcommand{\Afilliation}[1]{\small{#1}}}
+%% changed 2012, allowing two different stlyes for e-mails, each e-mail on a new line - style as2011, or all mails on the same line
+\ifdefstring{\Style}{AS2011}{\newcommand{\Email}[1]{\texttt{\email{#1}}}}{\newcommand{\Email}[1]{\texttt{\email{#1}}}}
+%\newcommand{\AfilliationAndEmail}[1]{\begin{flushleft} #1 \end{flushleft} \par \vspace{12pt}}
+\newcommand{\AfilliationAndEmail}[1]{#1 \par \vspace{4pt}}
+\newcommand{\Abstract}[1]{#1 \par \vspace{36pt}}
+\newcommand{\Presenting}[1]{\underline{#1}}
+
+
+
+
+
+
+
+
+%modified to add topics and id,
+%\newcommand{\A}[4]{
+\newcommand{\A}[5]{
+\begin{minipage}{\textwidth}
+    \Title{#1}
+    %\nopagebreak
+    \Author{#2}
+    %\AfilliationAndEmail{#3}
+%    \begin{flushleft}     \AfilliationAndEmail{#3}   \end{flushleft}
+    \AfilliationAndEmail{#3}
+    %\Email{#3}
+    %\Afilliation{#3}
+    %\Email{#5}
+    %keywords, will be removed later
+     \Keyword{#4}
+    %\Abstract{#4} - put
+    \Abstract{#5}
+    %\pagebreak
+\end{minipage}
+}
+
+\parindent 0 pt
+\def\RR{\hbox{\sf I\kern-.14em\hbox{R}}}
+\newcommand{\ttx}[1]{\small\sf{#1}\normalsize\rm}
+\renewcommand\indexname{Index of Authors}
+\makeindex
+
+%\chead{\tiny \colorbox[rgb]{0.76,.93,1}{\hspace{2,5cm}\bf Opazovanje dejavnikov tveganja zlomov pri \v{z}enskah z
+%osteoporozo v menopavzi, starih vsaj 55 let (SCOR'os)\hspace{2,5cm}}}
+%\cfoot{\footnotesize \colorbox[rgb]{0.76,.93,1}{\hspace{15cm}\bf
+%Applied Statistics 2008 \thepage}}
+
+
+%%%% dodal Blejec %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[colorlinks,
+  pdfborder=0 0 0,
+  pdfauthor={A. Blejec},
+  pdfpagemode=UseOutline,
+  pdfstartview=Fit,
+  pdfpagelabels, pageanchor,
+  bookmarks, bookmarksopen, bookmarksnumbered,
+  citecolor= darkblue, linkcolor=blue, urlcolor=blue
+]{hyperref}
+\providecommand{\email}[1]{\href{mailto:#1}{\normalfont\small\texttt{#1}}}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \oddsidemargin  0.0in
+    \evensidemargin 0.0in
+    \textwidth      6.0in
+    \headheight     0.0in
+    \topmargin      -0.75in
+    \textheight=    10.0in
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------------
+\usepackage{fancyhdr}
+%% Header
+\newcommand{\SetHeader}[2]{
+\fancyhead{}
+\fancyhead[LE,RO]{\textit{#1}}
+\fancyhead[RE,LO]{ #2}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\small{\Footer}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+}
+
+%% Session name
+\newcommand{\Session}{Session name}
+
+%% Session date
+\providecommand{\Date}{Date of session}
+
+%% Session as a section + toc
+\newcommand{\Section}[1]{\clearpage \vspace{1cm}\section*{#1}
+%\renewcommand{\Session}{#1}
+\addcontentsline{toc}{section}{ #1}
+}
+
+
+%%%%%%%commands for program%%%%%%%%%%%%%%%
+\newcommand{\PrSectionHeader}[4]{
+\begin{tabbing}
+xxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=xxxxxxxx\=xxxxxxxxxxxxx \kill
+#1  \> \bf{#2} \> #3 \> {\em #4}\\[0.1mm]
+\end{tabbing}
+}
+
+
+\newcommand{\PrTalk}[2]{
+\item {\bf #1}\\ \sl{#2}\\[0.1mm]
+}
+
+
+
+
+\raggedbottom
+%% Pages as full as possible
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\floatpagefraction}{0.8}
+%%
+%%%% added Blejec %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+
+%for underscore, added by Lara
+%\texttt{create\us process}
+
+\renewcommand{\DocTitle}{\DocTitleSubmitted}
+%  \input{1zac.tex}
+  \input{cover.tex}
+~
+\thispagestyle{empty}
+\newpage
+
+
+\small
+
+\normalsize
+
+\newpage ~
+%%%%%%%%%%%%%%%%%% title page for the abstracts
+\thispagestyle{empty}
+ \begin{center}
+  \Large
+   \begin{flushright}
+   \vspace{17cm} {\Huge \em{ \textbf{\DocTitleSubmitted}}} \\ [0.5cm]
+   \end{flushright}
+   \normalsize
+ \end{center}
+%\noindent  \hrulefill \\[0.5cm]
+\small
+\clearpage
+
+
+\input{abstractListByTopic.tex}
+
+
+
+
+% ------------------------------------------------- Next day -----
+\renewcommand{\Date}{ }
+%\addtocontents{toc}{\hfill\textbf{\Date}\\}
+
+%% ------------------------------------------- Session start
+\renewcommand{\Session}{ }
+\Section{\Session}
+\SetHeader{\Date}{\Session}
+%%--------------------------------------------
+
+
+
+\input{empty.tex}
+
+\newpage
+\printindex
+\newpage
+
+
+\newpage
+\input{empty.tex}
+  \input{notes.tex}
+
+
+
+
+
+\end{document}

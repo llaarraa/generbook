@@ -1,0 +1,9 @@
+Package: generbook
+Type: Package
+Title: Generates a book of abstract
+Version: 1.0
+Date: 2014-06-26
+Author: Lara Lusa and Andrej Blejec
+Maintainer: Lara Lusa <lara.lusa@mf.uni-lj.si>
+Description: The package includes functions for the preparation of the book of abstract of a scientific conference. It also generates additional files that can be useful for conference management.
+License: GPL

@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% naslovnica %%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+{\center
+{\Large \bf \DocConferenceTitleA} \\[14mm]
+{\LARGE \bf \DocConferenceTitleB} \\ [6mm]
+{\LARGE \bf \DocYear} \\ [14mm] %[34mm]
+{\large \DocTitle} \\
+\begin{center} \setlength{\unitlength}{1cm}
+  \includegraphics[width=130mm,angle=270, totalheight=0.55\textheight, trim=10mm 10mm 10mm 10mm,  clip]{\DocFigCover}
+\end{center}
+%\vfill
+\DocDate \\ %[3mm]
+\DocPlace \\[3mm]%[3mm]
+\DocURL \\
+}
+\newpage
+
+%leave an empty page so the numbering is correct also in the pdf file
+
+\thispagestyle{empty}
+\input{empty.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Prva stran %%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\setcounter{page}{1}
+{\center
+{\Large \bf \DocConferenceTitleA}\\  [14mm]
+
+{\LARGE \bf \DocConferenceTitleB} \\ [6mm]
+{\LARGE \bf \DocYear} \\ [6mm]
+{\Large \DocTitle}  \\ [16mm]
+
+{\large \DocYear} \\[3mm]
+{\large \DocPlace} \\[6mm]
+{\large \DocURL}\\[10mm]
+{\Large Organized by} \\ [3mm]
+{\large \DocOrganizer} \\[10mm] %[16mm]
+
+\vfill
+
+
+%Urad vlade R Slovenije za informiranje
+
+{\Large Supported by} \\ [3mm]
+\DocSponsors }
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Druga stran %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\thispagestyle{empty}
+
+%\vspace*{11cm}
+\vspace*{9cm}
+
+
+\DocCenterPageTwo
+
+\DocBottomPageTwo
+
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tretja stran %%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+%\large
+
+{\bf Scientific Program Committee}\\%[1cm]
+\begin{tabbing}
+%{
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=xxxx \kill
+
+\DocScientificComm
+%}
+\end{tabbing}
+
+\vspace{2cm}
+
+{\bf Organizing Committee}\\%[1cm]
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=xxxx \kill
+\DocOrganizingComm
+\end{tabbing}
+
+\noindent  \hrulefill \\
+
+\vspace{1cm}
+
+%\noindent  \hrulefill \\
+ {
+ \begin{tabbing}
+ MMMMMMMMMM\=MMMMMMMMMMMMMMMMMMMMMM \kill
+ {\em Published by}: \> \DocPublisher \\ %[2mm]
+ {\em Edited by}: \> \DocEditors \\ %[2mm]
+ {\em Printed by}: \> \DocPrinter \\
+ {\em Produced using}: \> generbook R package\\
+ {\em Circulation}: \> \DocCirculation \\
+ \end{tabbing}
+ }
+
+\clearpage
+

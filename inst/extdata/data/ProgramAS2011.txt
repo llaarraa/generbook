@@ -1,0 +1,36 @@
+Name	Day	DayLong	DayShort	DayTable	Room	TimeBegin	TimeEnd	Chair	Abstract1	Abstract2	Abstract3	Abstract4	Abstract5	okSession	ChairMail	AskedChair	Okchair
+Registration	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		10.301	11.001										
+Opening of the Conference	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		11.001	11.101										
+Invited Lecture	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 1	11.101	12.001	Andrej Blejec	3					y			
+Break	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		12.001	12.201										
+Social Science Methodology	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 1	12.201	13.401	Adrian Bowman	66	93	50	54		yy			
+Lunch	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		13.401	15.001										
+Statistical Software	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 1	15.001	16.201	Nata\v{s}a Kej\v{z}ar	7	71	112	30		yy			
+Mathematical Statistics	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 2	15.001	16.201	Janez Stare	27	87	44	72		yy			
+Break	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		16.201	16.401										
+Measurement	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 1	16.401	18.001	Gaj Vidmar	59	9	69	95		yy			
+Sampling Techniques and Data Collection	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday	Hall 2	16.401	18.001	Vasja Vehovar	21	29	90	28		yy			
+Reception	1	SUNDAY, September 25, 2011	Sunday, September 25	Sunday		19.001											
+Invited Lecture	2	MONDAY, September 26, 2011	Monday, September 26	Monday	Hall 1	9.101	10.001	Anu\v{s}ka Ferligoj	1					y			
+Break	2	MONDAY, September 26, 2011	Monday, September 26	Monday		10.001	10.201										
+Statistics in Life	2	MONDAY, September 26, 2011	Monday, September 26	Monday	Hall 1	10.201	11.401	Niels Keiding	107	36	85	4		yy			
+Break	2	MONDAY, September 26, 2011	Monday, September 26	Monday		11.401	12.001										
+Education	2	MONDAY, September 26, 2011	Monday, September 26	Monday	Hall 1	12.001	13.201	Andrej Blejec	88	78	99	63		yy			
+Statistical Applications - Economics	2	MONDAY, September 26, 2011	Monday, September 26	Monday	Hall 2	12.001	13.201	Simona Korenjak \v{C}erne	82	70	68	75		yy			
+Lunch	2	MONDAY, September 26, 2011	Monday, September 26	Monday		13.201	14.301										
+Excursion	2	MONDAY, September 26, 2011	Monday, September 26	Monday		14.301											
+Invited Lecture	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday	Hall 1	9.101	10.001	Janez Stare	2					y			
+Break	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday		10.001	10.201										
+Biostatistics and Bioinformatics I	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday	Hall 1	10.201	11.401	Hans C. van Houwelingen	109	113	5	10		yy			
+Break	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday		11.401	12.001										
+Biostatistics and Bioinformatics II	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday	Hall 1	12.001	13.201	Katarina Ko\v{s}melj	46	77	110	42		yy			
+Modeling and Simulation I	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday	Hall 2	12.001	13.201	Ale\v{s} \v{Z}iberna	24	40	23						
+Lunch	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday		13.201	15.001										
+Statistical Applications - Biostatistics	3	TUESDAY, September 27, 2011	Tuesday, September 27	Tuesday	Hall 1	15.001	16.201	Maja Pohar Perme	73	53	57	114		yy			
+Econometrics	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday	Hall 1	9.301	10.501	Giovanni Millo	39	35	81	74		yy			
+Break	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday		10.501	11.101										
+Modeling and Simulation II	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday	Hall 1	11.101	12.301	Lara Lusa	103	25	60	67		yy			
+Network Analysis and Statistical Applications	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday	Hall 2	11.101	12.301	Matev\v{z} Bren	100	111	56	105		yy			
+Closing of the conference	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday	Hall 1	12.301	12.501										
+Lunch	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday		12.501	14.001										
+Workshop	4	WEDNESDAY, September 28, 2011	Wednesday, September 28	Wednesday	Hall 2	14.001	18.001		1001					y			
