@@ -1,5 +1,5 @@
 #file that contains all the generbook R functions
-#updated 24th of September 2012
+#updated 24th of September 2012 - 
 
 #version that includes only the accepted papers
 #version that does not use the numbers or underlining if there is just 1 author
